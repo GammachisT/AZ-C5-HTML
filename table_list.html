@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons8-favicon.gif">
+    <title>HTML Tables</title>
+    <style>
+        table {
+            margin-left: auto; 
+            margin-right: auto;
+            margin-top: 100px;
+        }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    td {
+        text-align: center;
+    }
+    li {
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>HTML Tables</caption>
+        <thead>
+            <th colspan="6">Time Table</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="7">Hours</th>
+            </tr>
+            <tr>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thus</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">
+                    Project
+                    <ul>
+                        <li>Software development</li>
+                        <li>Web content creation</li>
+                        <li>Animation</li>
+                        <li>app developmemt</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>
+                    History
+                    <ol type="a">
+                        <li>Ancient Civilization</li>
+                        <li>World War II</li>
+                        <li>Cold War</li>
+                    </ol>
+                </td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
